@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato";
+}
+
+.container{
+    /* margin-inline: auto; */
+    min-height: 90vh;
+    background-color: #F5F8FA;
+    padding: 1.75rem 2.5rem;
+    margin-top: 4rem;
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #7a7c7d;
+    padding: 1rem;
+    background-color: #F5F8FA;
+}
+
+
+.logo{
+    width: 9rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #1D2C3C;
+}
+
+
+.account{
+    border: 2px solid #646E7A;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.burger-menu{
+    display: none;
+    font-size: 1.5rem;
+}
+
+.main{
+    display: flex;
+    width: 600px;
+    margin: 3rem auto 1rem;
+    box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.11);
+    border-radius: 3px;
+}
+
+.advert{
+    flex: 1 1 35%;
+    order: 1;
+    background: #1179BF;
+    padding: 2rem;
+    color: white;
+    border-radius: 0 3px 3px 0;
+}
+
+.advert .free{
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.price .big{
+    font-size: 38px;
+    font-weight: 300;
+}
+
+sup{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.year{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: -5px;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.7rem;
+    width: 100px;
+    margin-bottom: 27px;
+}
+
+.list{
+    display: flex;
+    font-size: 0.7rem;
+    font-size: 9px;
+    word-spacing: 1px;
+}
+.list div {
+    font-size: 0.7rem;
+}
+
+.space{
+    margin-bottom: 13px;
+} 
+
+.bx{
+    margin-right: 5px;
+    margin-bottom: 11px;
+    padding: 0.6px 1px;
+    border: 1.5px solid #B9F5FF;
+    border-radius: 50%;
+    color: #B9F5FF;
+    font-size: 0.7rem;
+}
+
+.client{
+    font-size: 0.7rem;
+    padding-bottom: 8px;
+}
+
+.agency{
+    font-size: 0.7rem;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4194cc;
+}
+
+.ftp{
+    /* font-size: 10px; */
+    font-size: 0.8rem;
+    padding-top: 20px;
+    line-height: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.pic{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.lest{
+    display: flex;
+    align-items: center;
+    font-weight: 500; 
+    font-size: 9px;
+    word-spacing: 1px;
+}
+.lest div{
+    font-size: 0.7rem;
+    font-weight: 600; 
+}
+
+
+.checkout-details{
+    flex: 1 1 62%;
+}
+
+
+.checkout{
+    padding: 17px 20px;
+    border-bottom: 1.5px solid #F5F7FA;
+    width: 95%;
+}
+
+.check{
+    padding: 2px 0;
+    text-shadow: 0px 2px 1px rgba(0,0,0,0.17);
+}
+
+.numb-title{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.numb{
+    color: #548BC5;
+    font-weight: 700;
+    font-size: 0.7rem;
+    border: 1.9px solid #548BC5;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+form .input-flex{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+} 
+
+form .input-flex .input-box{
+    width: 48%;
+}
+
+label{
+    font-size: 0.7rem;
+}
+
+input{
+    height: 1.25rem;
+    font-size: 0.7rem;
+    background-color: #EDEFF2;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    padding: 13px 10px;
+    margin-top: 5px;
+}
+
+.input-email input{
+    width: 70%;
+}
+
+.input-card input{
+    width: 100%;
+}
+
+.card-details{
+    display: flex;
+}
+
+.card-details input{
+    margin: 0;
+    padding: 0.5rem;
+}
+
+#num{
+   width: 65%; 
+   padding: 13px 10px;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+}
+#month{
+    padding: 13px 10px;
+    border-radius: 0px;
+}
+#cvv{
+    padding: 13px 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.end{
+    display: flex;
+    width: 35%;
+}
+
+.cd button{
+    height: 2rem;
+    background-color: #038E7D;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.help{
+    margin-top: 15px;
+    font-size: 9px;
+    text-align: center;
+}
+
+.circle{
+    color: #548BC5;
+    font-weight: 700;
+    font-size: 0.7rem;
+    border: 1.5px solid #548BC5;
+    padding: 0.025rem 0.25rem;
+    border-radius: 50%;
+}
+
+
+.help p{
+    color: #646E7A;
+}
+.help a{
+    color: #646E7A;
+    text-decoration: underline;
+}
+
+.logoo{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.qq{
+    color: #646E7A;
+}
+
+.ww{
+    color:#31708F;
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+
+    .container{
+        padding: 0.5rem 1rem;
+        max-width: 100%;
+    }
+
+   .logo{
+     width: 6rem;
+   }
+
+   .nav{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 50%;
+    height:fit-content;
+    background-color: white;
+   }
+
+   .show{
+    display: flex;
+   }
+
+   .show li{
+    width: 100%;
+    padding-block: 1rem;
+    text-align: center;
+   }
+
+   .show li:hover{
+    background-color: white;
+   }
+
+   .burger-menu{
+    display: block;
+   }
+    
+   .account{
+    border: none;
+   }
+
+   .main{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+   }
+
+   .checkout-details{
+    order: 2;
+   }
+   /* .input-flex{
+   display: block;
+   } */
+
+   .input-email input{
+    width: 100%;
+   }
+   
+}
